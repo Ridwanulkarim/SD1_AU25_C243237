@@ -1,24 +1,30 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package com.mycompany.codes;
+package javacodes;
 import java.util.*;
+
+
 /**
  *
- *
- */ 
-public class NewClass1 {
+ * @author USER
+ */
+public class JavaCodes {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-     Scanner input = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int number = input.nextInt();
-        if (number % 2 == 0) {
-            System.out.println(number + " is Even.");
-        } 
-        else {
-            System.out.println(number + " is Odd.");
-        }
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number:");
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c = input.nextInt();
+        int max = a;
+        if(b > max) max = b;
+        if(c > max) max = c;
+        System.out.println(max);
     }
-        
 }
