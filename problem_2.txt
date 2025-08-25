@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.codes;
+import java.util.*;
+
+/**
+ *
+ * @author SDLab-PC-CX130
+ */
+public class Codes {
+
+    public static void main(String[] args) {
+              Scanner input=new Scanner(System.in);
+              System.out.print("enter your name:");
+              String username=input.nextLine();
+              System.out.println("Hello," + username + "!");
+              input.close();
+              
+       
+    }
+}
