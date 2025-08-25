@@ -16,8 +16,9 @@ public class Codes {
               System.out.print("enter your name:");
               String username=input.nextLine();
               System.out.println("Hello," + username + "!");
-              input.close();
+              
               
        
     }
 }
+
