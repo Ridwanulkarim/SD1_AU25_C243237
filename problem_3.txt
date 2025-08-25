@@ -3,28 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacodes;
+package javacodes1;
 import java.util.*;
-
 
 /**
  *
  * @author USER
  */
-public class JavaCodes {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Javacodes1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number:");
-        int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
-        int max = a;
-        if(b > max) max = b;
-        if(c > max) max = c;
-        System.out.println(max);
+        int num = input.nextInt();
+        if (num % 2 == 0) {
+            System.out.println(num + " is Even.");
+        } 
+        else {
+            System.out.println(num + " is Odd.");     
+        }   
+         }
     }
-}
+
+
