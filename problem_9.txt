@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.javacodes10;
+import java.util.*;
+/**
+ *
+ * @author USER
+ */
+public class Javacodes10 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int N = input.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= N; i++) {
+            sum += i;
+        }
+        System.out.println("Sum = " + sum);
+       
+    }
+}
