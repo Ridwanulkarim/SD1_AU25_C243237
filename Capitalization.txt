@@ -1,0 +1,11 @@
+package com.mycompany.capitalization3;
+import java.util.*;
+public class Capitalization3 {
+  public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String word = input.next();
+        String ans = Character.toUpperCase(word.charAt(0)) + word.substring(1);
+        System.out.println(ans);
+    }
+}
+   
