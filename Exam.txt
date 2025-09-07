@@ -1,0 +1,20 @@
+package com.mycompany.exam;
+import java.util.*;
+public class EXAM {
+    public static void main(String[] args) {
+     Scanner input = new Scanner(System.in);
+        System.out.print("Enter number of sections (X): ");
+        int X = input.nextInt();
+
+        System.out.print("Enter number of students per section (Y): ");
+        int Y = input.nextInt();
+        System.out.print("Enter number of students who passed (Z): ");
+        int Z = input.nextInt();
+        int totalStudents = X * Y;
+        if (Z > totalStudents / 2) {
+            System.out.println("Yes, the number of students who passed is strictly greater than 50%.");
+        } else {
+            System.out.println("No, the number of students who passed is NOT strictly greater than 50%.");
+        }
+    }
+}
