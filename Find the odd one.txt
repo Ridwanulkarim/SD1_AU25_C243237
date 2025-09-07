@@ -1,0 +1,16 @@
+package com.mycompany.find_the_odd_one;
+import java.util.*;
+public class Find_the_Odd_One {
+
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+        int a = input.nextInt(), b = input.nextInt(), c = input.nextInt();
+        if (a == b) 
+            System.out.println(c);
+        else if (a == c)
+            System.out.println(b);
+        else 
+            System.out.println(a);
+    }
+}
+  
