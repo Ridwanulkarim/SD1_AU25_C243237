@@ -1,0 +1,17 @@
+package com.mycompany.assignment;
+import java.util.*;
+public class Assignment {
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+        System.out.print("Enter starting time (X in PM, e.g., 7 for 7 PM): ");
+        int X = input.nextInt();
+        int assignments = 3;
+        int totalHours = assignments; 
+        int finishTime = X + totalHours;
+        if (finishTime <= 10) {
+            System.out.println("The student will complete all assignments.");
+        } else {
+            System.out.println("The student will NOT complete all assignments.");
+        }
+    }
+}
