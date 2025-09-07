@@ -1,0 +1,13 @@
+package com.mycompany.work_hour;
+import java.util.*;
+public class Work_Hour {
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+        System.out.print("Enter normal working hours per day (X): ");
+        int X = input.nextInt();
+        System.out.print("Enter Wednesday working hours (Y): ");
+        int Y = input.nextInt();    
+        int totalHours = (4 * X) + Y;
+        System.out.println("Total working hours in one week: " + totalHours);
+    }
+}  
